@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UWTutorialController">
+            <connections>
+                <outlet property="tutorialViewStep2" destination="qWu-YE-MWz" id="pzx-l2-KR8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qWu-YE-MWz">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_step2" translatesAutoresizingMaskIntoConstraints="NO" id="1LY-Oc-uP3">
+                    <rect key="frame" x="147" y="136" width="267" height="272"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="267" id="D4c-QM-8bl"/>
+                        <constraint firstAttribute="width" secondItem="1LY-Oc-uP3" secondAttribute="height" multiplier="267:272" id="r5p-Te-V9W"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="r5p-Te-V9W"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="206" translatesAutoresizingMaskIntoConstraints="NO" id="9Oi-cO-K0x">
+                    <rect key="frame" x="186" y="66" width="229" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="jwY-hl-JzJ"/>
+                        <constraint firstAttribute="width" constant="229" id="sBN-tj-geD"/>
+                    </constraints>
+                    <string key="text">Aspetta che il tuo dispositivo
+si colleghi alla wifi e poi torna qui</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="9Oi-cO-K0x" secondAttribute="centerX" constant="-0.5" id="XXg-BC-IaM"/>
+                <constraint firstItem="1LY-Oc-uP3" firstAttribute="top" secondItem="9Oi-cO-K0x" secondAttribute="bottom" constant="8" id="emw-fU-hsw"/>
+                <constraint firstAttribute="bottom" secondItem="1LY-Oc-uP3" secondAttribute="bottom" constant="192" id="mBw-BG-dcS"/>
+                <constraint firstAttribute="centerX" secondItem="1LY-Oc-uP3" secondAttribute="centerX" constant="19.5" id="myj-78-0B0"/>
+                <constraint firstItem="9Oi-cO-K0x" firstAttribute="top" secondItem="qWu-YE-MWz" secondAttribute="top" constant="66" id="wOx-ia-aze"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="mBw-BG-dcS"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-801" y="-829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tutorial_step2" width="267" height="272"/>
+    </resources>
+</document>

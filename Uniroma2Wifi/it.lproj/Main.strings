@@ -1,0 +1,57 @@
+
+/* Class = "IBUITableViewController"; title = "Credenziali"; ObjectID = "4gs-wz-HeK"; */
+"4gs-wz-HeK.title" = "Credenziali";
+
+/* Class = "IBUILabel"; text = "Andrea Cerra"; ObjectID = "5RF-Xm-XJ0"; */
+"5RF-Xm-XJ0.text" = "Andrea Cerra";
+
+/* Class = "IBUILabel"; text = "Michele Porretta"; ObjectID = "8U1-SV-cOT"; */
+"8U1-SV-cOT.text" = "Michele Porretta";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "9xj-56-b42"; */
+"9xj-56-b42.text" = "Title";
+
+/* Class = "IBUIViewController"; title = "Uniroma2 Wi-Fi"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Uniroma2 Wi-Fi";
+
+/* Class = "IBUIViewController"; title = "Contatti"; ObjectID = "Cqa-Jc-jVH"; */
+"Cqa-Jc-jVH.title" = "Contatti";
+
+/* Class = "IBUIButton"; normalTitle = "Scrivici una email"; ObjectID = "DdR-ax-B3t"; */
+"DdR-ax-B3t.normalTitle" = "Scrivici una email";
+
+/* Class = "IBUIButton"; normalTitle = "Visita il sito web"; ObjectID = "FIh-Gw-pfr"; */
+"FIh-Gw-pfr.normalTitle" = "Visita il sito web";
+
+/* Class = "IBUIViewController"; title = "Condizioni"; ObjectID = "Ihh-x9-2bd"; */
+"Ihh-x9-2bd.title" = "Condizioni";
+
+/* Class = "IBUIButton"; normalTitle = "Connetti"; ObjectID = "JYX-D2-MLb"; */
+"JYX-D2-MLb.normalTitle" = "Connetti";
+
+/* Class = "IBUILabel"; text = "Facoltà di ingegneria. Roma, Tor Vergata"; ObjectID = "JbK-Z5-jei"; */
+"JbK-Z5-jei.text" = "Facoltà di ingegneria. Roma, Tor Vergata";
+
+/* Class = "IBUITextView"; text = "Salvando le credenziali si dichiara di aver letto e accettato le politiche d’uso."; ObjectID = "TTz-N9-y5T"; */
+"TTz-N9-y5T.text" = "Salvando le credenziali si dichiara di aver letto e accettato le politiche d’uso.";
+
+/* Class = "IBUITableViewController"; title = "Impostazioni"; ObjectID = "Uv5-CT-lmq"; */
+"Uv5-CT-lmq.title" = "Impostazioni";
+
+/* Class = "IBUILabel"; text = "Social"; ObjectID = "ZSg-Ys-PXO"; */
+"ZSg-Ys-PXO.text" = "Social";
+
+/* Class = "IBUILabel"; text = "Contatti"; ObjectID = "cse-Da-uyw"; */
+"cse-Da-uyw.text" = "Contatti";
+
+/* Class = "IBUILabel"; text = "Autori"; ObjectID = "lls-TK-m4a"; */
+"lls-TK-m4a.text" = "Autori";
+
+/* Class = "IBUIViewController"; title = "Supporto"; ObjectID = "mrj-FO-gIi"; */
+"mrj-FO-gIi.title" = "Supporto";
+
+/* Class = "IBUITextView"; text = "Prima di contattare il supporto verifica che le tue credenziali siano corrette oppure prova a fare il login in un altro momento."; ObjectID = "ob1-ZW-5e4"; */
+"ob1-ZW-5e4.text" = "Prima di contattare il supporto verifica che le tue credenziali siano corrette oppure prova a fare il login in un altro momento.";
+
+/* Class = "IBUILabel"; text = "Text"; ObjectID = "riB-Bt-bkL"; */
+"riB-Bt-bkL.text" = "Text";

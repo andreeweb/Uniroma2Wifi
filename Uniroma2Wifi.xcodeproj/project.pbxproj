@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652C313A1A15F20400E50226 /* UWSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C31391A15F20400E50226 /* UWSettingsTableViewController.m */; };
+		652C313D1A15F21600E50226 /* UWCredenzialiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C313C1A15F21600E50226 /* UWCredenzialiTableViewController.m */; };
+		652C31431A15F75200E50226 /* UWCredentialsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C31421A15F75200E50226 /* UWCredentialsTableViewCell.m */; };
+		652C31461A1608F000E50226 /* UWSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C31451A1608F000E50226 /* UWSupportViewController.m */; };
+		652C314C1A1647EA00E50226 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652C314B1A1647EA00E50226 /* MessageUI.framework */; };
+		652C314F1A1657A800E50226 /* UWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C314E1A1657A800E50226 /* UWAboutViewController.m */; };
+		652C31591A16937A00E50226 /* UWTutorialViewStep1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C31581A16937A00E50226 /* UWTutorialViewStep1.xib */; };
+		652C315B1A1693B300E50226 /* UWTutorialViewStep2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C315A1A1693B300E50226 /* UWTutorialViewStep2.xib */; };
+		652C31611A16AB8C00E50226 /* UWTutorialViewStep3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C31601A16AB8C00E50226 /* UWTutorialViewStep3.xib */; };
+		652C31651A16ACB000E50226 /* UWTutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C31631A16ACB000E50226 /* UWTutorialController.m */; };
+		652C31661A16ACB000E50226 /* UWTutorialController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652C31641A16ACB000E50226 /* UWTutorialController.xib */; };
+		652C31691A16B14000E50226 /* UWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C31681A16B14000E50226 /* UWTextField.m */; };
+		6581783B19F44021006DD572 /* UWMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6581783A19F44021006DD572 /* UWMainController.m */; };
+		65E68A9A1A1A71FC00B6BC21 /* uniroma2.der in Resources */ = {isa = PBXBuildFile; fileRef = 65E68A991A1A71FC00B6BC21 /* uniroma2.der */; };
+		65EA4CD71A18F13500AE2F11 /* UWConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA4CD61A18F13500AE2F11 /* UWConditionsViewController.m */; };
+		65FA049D19F1EDEA004F3529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA049C19F1EDEA004F3529 /* main.m */; };
+		65FA04A019F1EDEA004F3529 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA049F19F1EDEA004F3529 /* AppDelegate.m */; };
+		65FA04A619F1EDEA004F3529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FA04A419F1EDEA004F3529 /* Main.storyboard */; };
+		65FA04A819F1EDEA004F3529 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FA04A719F1EDEA004F3529 /* Images.xcassets */; };
+		65FA04AB19F1EDEA004F3529 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FA04A919F1EDEA004F3529 /* LaunchScreen.xib */; };
+		65FA04B719F1EDEA004F3529 /* Uniroma2WifiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA04B619F1EDEA004F3529 /* Uniroma2WifiTests.m */; };
+		65FA04C119F1EE81004F3529 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA04C019F1EE81004F3529 /* Security.framework */; };
+		65FA04C419F1EEB4004F3529 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA04C319F1EEB4004F3529 /* SystemConfiguration.framework */; };
+		65FA04C619F1EFAC004F3529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA04C519F1EFAC004F3529 /* CoreGraphics.framework */; };
+		65FA04C819F1EFB2004F3529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA04C719F1EFB2004F3529 /* UIKit.framework */; };
+		65FA04CA19F1EFB9004F3529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FA04C919F1EFB9004F3529 /* Foundation.framework */; };
+		65FA04EB19F1F11D004F3529 /* UWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA04EA19F1F11D004F3529 /* UWHomeViewController.m */; };
+		65FA04FD19F1F6D0004F3529 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA04EE19F1F6D0004F3529 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		65FA04FE19F1F6D0004F3529 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA04F119F1F6D0004F3529 /* Reachability.m */; };
+		65FA051119F1F792004F3529 /* icon-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050919F1F792004F3529 /* icon-error.png */; };
+		65FA051219F1F792004F3529 /* icon-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050A19F1F792004F3529 /* icon-error@2x.png */; };
+		65FA051319F1F792004F3529 /* icon-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050B19F1F792004F3529 /* icon-info.png */; };
+		65FA051419F1F792004F3529 /* icon-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050C19F1F792004F3529 /* icon-info@2x.png */; };
+		65FA051519F1F792004F3529 /* icon-success.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050D19F1F792004F3529 /* icon-success.png */; };
+		65FA051619F1F792004F3529 /* icon-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FA050E19F1F792004F3529 /* icon-success@2x.png */; };
+		65FA051719F1F792004F3529 /* TWMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA051019F1F792004F3529 /* TWMessageBarManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FA04B119F1EDEA004F3529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FA048F19F1EDEA004F3529 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FA049619F1EDEA004F3529;
+			remoteInfo = Uniroma2Wifi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		652C31381A15F20400E50226 /* UWSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWSettingsTableViewController.h; sourceTree = "<group>"; };
+		652C31391A15F20400E50226 /* UWSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWSettingsTableViewController.m; sourceTree = "<group>"; };
+		652C313B1A15F21600E50226 /* UWCredenzialiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWCredenzialiTableViewController.h; sourceTree = "<group>"; };
+		652C313C1A15F21600E50226 /* UWCredenzialiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWCredenzialiTableViewController.m; sourceTree = "<group>"; };
+		652C31411A15F75200E50226 /* UWCredentialsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWCredentialsTableViewCell.h; sourceTree = "<group>"; };
+		652C31421A15F75200E50226 /* UWCredentialsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWCredentialsTableViewCell.m; sourceTree = "<group>"; };
+		652C31441A1608F000E50226 /* UWSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWSupportViewController.h; sourceTree = "<group>"; };
+		652C31451A1608F000E50226 /* UWSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWSupportViewController.m; sourceTree = "<group>"; };
+		652C314B1A1647EA00E50226 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		652C314D1A1657A800E50226 /* UWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWAboutViewController.h; sourceTree = "<group>"; };
+		652C314E1A1657A800E50226 /* UWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWAboutViewController.m; sourceTree = "<group>"; };
+		652C31551A16746900E50226 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		652C31561A16746900E50226 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		652C31581A16937A00E50226 /* UWTutorialViewStep1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWTutorialViewStep1.xib; sourceTree = "<group>"; };
+		652C315A1A1693B300E50226 /* UWTutorialViewStep2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWTutorialViewStep2.xib; sourceTree = "<group>"; };
+		652C31601A16AB8C00E50226 /* UWTutorialViewStep3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWTutorialViewStep3.xib; sourceTree = "<group>"; };
+		652C31621A16ACB000E50226 /* UWTutorialController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWTutorialController.h; sourceTree = "<group>"; };
+		652C31631A16ACB000E50226 /* UWTutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWTutorialController.m; sourceTree = "<group>"; };
+		652C31641A16ACB000E50226 /* UWTutorialController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWTutorialController.xib; sourceTree = "<group>"; };
+		652C31671A16B14000E50226 /* UWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWTextField.h; sourceTree = "<group>"; };
+		652C31681A16B14000E50226 /* UWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWTextField.m; sourceTree = "<group>"; };
+		6581783919F44021006DD572 /* UWMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWMainController.h; sourceTree = "<group>"; };
+		6581783A19F44021006DD572 /* UWMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWMainController.m; sourceTree = "<group>"; };
+		65C6C95B19FF98AD00330571 /* UWMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UWMacro.h; sourceTree = "<group>"; };
+		65E68A991A1A71FC00B6BC21 /* uniroma2.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = uniroma2.der; sourceTree = "<group>"; };
+		65EA4CD51A18F13500AE2F11 /* UWConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWConditionsViewController.h; sourceTree = "<group>"; };
+		65EA4CD61A18F13500AE2F11 /* UWConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWConditionsViewController.m; sourceTree = "<group>"; };
+		65FA049719F1EDEA004F3529 /* Uniroma2Wifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uniroma2Wifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FA049B19F1EDEA004F3529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FA049C19F1EDEA004F3529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65FA049E19F1EDEA004F3529 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Uniroma2Wifi/AppDelegate.h; sourceTree = "<group>"; };
+		65FA049F19F1EDEA004F3529 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Uniroma2Wifi/AppDelegate.m; sourceTree = "<group>"; };
+		65FA04A519F1EDEA004F3529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65FA04A719F1EDEA004F3529 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65FA04AA19F1EDEA004F3529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		65FA04B019F1EDEA004F3529 /* Uniroma2WifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Uniroma2WifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FA04B519F1EDEA004F3529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FA04B619F1EDEA004F3529 /* Uniroma2WifiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uniroma2WifiTests.m; sourceTree = "<group>"; };
+		65FA04C019F1EE81004F3529 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		65FA04C319F1EEB4004F3529 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65FA04C519F1EFAC004F3529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65FA04C719F1EFB2004F3529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65FA04C919F1EFB9004F3529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65FA04E919F1F11D004F3529 /* UWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWHomeViewController.h; sourceTree = "<group>"; };
+		65FA04EA19F1F11D004F3529 /* UWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWHomeViewController.m; sourceTree = "<group>"; };
+		65FA04ED19F1F6D0004F3529 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		65FA04EE19F1F6D0004F3529 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		65FA04F019F1F6D0004F3529 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		65FA04F119F1F6D0004F3529 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		65FA050919F1F792004F3529 /* icon-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-error.png"; sourceTree = "<group>"; };
+		65FA050A19F1F792004F3529 /* icon-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-error@2x.png"; sourceTree = "<group>"; };
+		65FA050B19F1F792004F3529 /* icon-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-info.png"; sourceTree = "<group>"; };
+		65FA050C19F1F792004F3529 /* icon-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-info@2x.png"; sourceTree = "<group>"; };
+		65FA050D19F1F792004F3529 /* icon-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-success.png"; sourceTree = "<group>"; };
+		65FA050E19F1F792004F3529 /* icon-success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-success@2x.png"; sourceTree = "<group>"; };
+		65FA050F19F1F792004F3529 /* TWMessageBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMessageBarManager.h; sourceTree = "<group>"; };
+		65FA051019F1F792004F3529 /* TWMessageBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMessageBarManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FA049419F1EDEA004F3529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652C314C1A1647EA00E50226 /* MessageUI.framework in Frameworks */,
+				65FA04C119F1EE81004F3529 /* Security.framework in Frameworks */,
+				65FA04C419F1EEB4004F3529 /* SystemConfiguration.framework in Frameworks */,
+				65FA04C619F1EFAC004F3529 /* CoreGraphics.framework in Frameworks */,
+				65FA04C819F1EFB2004F3529 /* UIKit.framework in Frameworks */,
+				65FA04CA19F1EFB9004F3529 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FA04AD19F1EDEA004F3529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652C31571A16931700E50226 /* UWTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				652C31621A16ACB000E50226 /* UWTutorialController.h */,
+				652C31631A16ACB000E50226 /* UWTutorialController.m */,
+				652C31641A16ACB000E50226 /* UWTutorialController.xib */,
+				652C31581A16937A00E50226 /* UWTutorialViewStep1.xib */,
+				652C315A1A1693B300E50226 /* UWTutorialViewStep2.xib */,
+				652C31601A16AB8C00E50226 /* UWTutorialViewStep3.xib */,
+			);
+			name = UWTutorial;
+			sourceTree = "<group>";
+		};
+		652C316A1A16B14B00E50226 /* UWClass */ = {
+			isa = PBXGroup;
+			children = (
+				652C31671A16B14000E50226 /* UWTextField.h */,
+				652C31681A16B14000E50226 /* UWTextField.m */,
+			);
+			name = UWClass;
+			sourceTree = "<group>";
+		};
+		65FA048E19F1EDEA004F3529 = {
+			isa = PBXGroup;
+			children = (
+				65FA049E19F1EDEA004F3529 /* AppDelegate.h */,
+				65FA049F19F1EDEA004F3529 /* AppDelegate.m */,
+				65FA049919F1EDEA004F3529 /* Uniroma2Wifi */,
+				65FA04C219F1EE96004F3529 /* Library */,
+				65FA04B319F1EDEA004F3529 /* Uniroma2WifiTests */,
+				65FA049819F1EDEA004F3529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FA049819F1EDEA004F3529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FA049719F1EDEA004F3529 /* Uniroma2Wifi.app */,
+				65FA04B019F1EDEA004F3529 /* Uniroma2WifiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FA049919F1EDEA004F3529 /* Uniroma2Wifi */ = {
+			isa = PBXGroup;
+			children = (
+				652C316A1A16B14B00E50226 /* UWClass */,
+				65C6C95B19FF98AD00330571 /* UWMacro.h */,
+				6581783919F44021006DD572 /* UWMainController.h */,
+				6581783A19F44021006DD572 /* UWMainController.m */,
+				65FA04E919F1F11D004F3529 /* UWHomeViewController.h */,
+				65FA04EA19F1F11D004F3529 /* UWHomeViewController.m */,
+				652C31381A15F20400E50226 /* UWSettingsTableViewController.h */,
+				652C31391A15F20400E50226 /* UWSettingsTableViewController.m */,
+				652C31441A1608F000E50226 /* UWSupportViewController.h */,
+				652C31451A1608F000E50226 /* UWSupportViewController.m */,
+				652C313B1A15F21600E50226 /* UWCredenzialiTableViewController.h */,
+				652C313C1A15F21600E50226 /* UWCredenzialiTableViewController.m */,
+				652C31411A15F75200E50226 /* UWCredentialsTableViewCell.h */,
+				652C31421A15F75200E50226 /* UWCredentialsTableViewCell.m */,
+				652C314D1A1657A800E50226 /* UWAboutViewController.h */,
+				652C314E1A1657A800E50226 /* UWAboutViewController.m */,
+				65EA4CD51A18F13500AE2F11 /* UWConditionsViewController.h */,
+				65EA4CD61A18F13500AE2F11 /* UWConditionsViewController.m */,
+				65FA04A419F1EDEA004F3529 /* Main.storyboard */,
+				652C31571A16931700E50226 /* UWTutorial */,
+				65FA04A719F1EDEA004F3529 /* Images.xcassets */,
+				65FA04A919F1EDEA004F3529 /* LaunchScreen.xib */,
+				65FA049A19F1EDEA004F3529 /* Supporting Files */,
+			);
+			path = Uniroma2Wifi;
+			sourceTree = "<group>";
+		};
+		65FA049A19F1EDEA004F3529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E68A991A1A71FC00B6BC21 /* uniroma2.der */,
+				65FA049B19F1EDEA004F3529 /* Info.plist */,
+				65FA049C19F1EDEA004F3529 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FA04B319F1EDEA004F3529 /* Uniroma2WifiTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FA04B619F1EDEA004F3529 /* Uniroma2WifiTests.m */,
+				65FA04B419F1EDEA004F3529 /* Supporting Files */,
+			);
+			path = Uniroma2WifiTests;
+			sourceTree = "<group>";
+		};
+		65FA04B419F1EDEA004F3529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65FA04B519F1EDEA004F3529 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65FA04C219F1EE96004F3529 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				65FA050719F1F792004F3529 /* TWMessageBarManager */,
+				65FA04EC19F1F6D0004F3529 /* KeychainItemWrapper */,
+				65FA04EF19F1F6D0004F3529 /* Reachability */,
+				652C314B1A1647EA00E50226 /* MessageUI.framework */,
+				65FA04C919F1EFB9004F3529 /* Foundation.framework */,
+				65FA04C719F1EFB2004F3529 /* UIKit.framework */,
+				65FA04C519F1EFAC004F3529 /* CoreGraphics.framework */,
+				65FA04C319F1EEB4004F3529 /* SystemConfiguration.framework */,
+				65FA04C019F1EE81004F3529 /* Security.framework */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		65FA04EC19F1F6D0004F3529 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				65FA04ED19F1F6D0004F3529 /* KeychainItemWrapper.h */,
+				65FA04EE19F1F6D0004F3529 /* KeychainItemWrapper.m */,
+			);
+			name = KeychainItemWrapper;
+			path = Uniroma2Wifi/KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		65FA04EF19F1F6D0004F3529 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				65FA04F019F1F6D0004F3529 /* Reachability.h */,
+				65FA04F119F1F6D0004F3529 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Uniroma2Wifi/Reachability;
+			sourceTree = "<group>";
+		};
+		65FA050719F1F792004F3529 /* TWMessageBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				65FA050819F1F792004F3529 /* Icons */,
+				65FA050F19F1F792004F3529 /* TWMessageBarManager.h */,
+				65FA051019F1F792004F3529 /* TWMessageBarManager.m */,
+			);
+			name = TWMessageBarManager;
+			path = Uniroma2Wifi/TWMessageBarManager;
+			sourceTree = "<group>";
+		};
+		65FA050819F1F792004F3529 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				65FA050919F1F792004F3529 /* icon-error.png */,
+				65FA050A19F1F792004F3529 /* icon-error@2x.png */,
+				65FA050B19F1F792004F3529 /* icon-info.png */,
+				65FA050C19F1F792004F3529 /* icon-info@2x.png */,
+				65FA050D19F1F792004F3529 /* icon-success.png */,
+				65FA050E19F1F792004F3529 /* icon-success@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FA049619F1EDEA004F3529 /* Uniroma2Wifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FA04BA19F1EDEA004F3529 /* Build configuration list for PBXNativeTarget "Uniroma2Wifi" */;
+			buildPhases = (
+				65FA049319F1EDEA004F3529 /* Sources */,
+				65FA049419F1EDEA004F3529 /* Frameworks */,
+				65FA049519F1EDEA004F3529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uniroma2Wifi;
+			productName = Uniroma2Wifi;
+			productReference = 65FA049719F1EDEA004F3529 /* Uniroma2Wifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FA04AF19F1EDEA004F3529 /* Uniroma2WifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FA04BD19F1EDEA004F3529 /* Build configuration list for PBXNativeTarget "Uniroma2WifiTests" */;
+			buildPhases = (
+				65FA04AC19F1EDEA004F3529 /* Sources */,
+				65FA04AD19F1EDEA004F3529 /* Frameworks */,
+				65FA04AE19F1EDEA004F3529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FA04B219F1EDEA004F3529 /* PBXTargetDependency */,
+			);
+			name = Uniroma2WifiTests;
+			productName = Uniroma2WifiTests;
+			productReference = 65FA04B019F1EDEA004F3529 /* Uniroma2WifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FA048F19F1EDEA004F3529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Andrea Cerra";
+				TargetAttributes = {
+					65FA049619F1EDEA004F3529 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 29883UF8KW;
+					};
+					65FA04AF19F1EDEA004F3529 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 65FA049619F1EDEA004F3529;
+					};
+				};
+			};
+			buildConfigurationList = 65FA049219F1EDEA004F3529 /* Build configuration list for PBXProject "Uniroma2Wifi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FA048E19F1EDEA004F3529;
+			productRefGroup = 65FA049819F1EDEA004F3529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FA049619F1EDEA004F3529 /* Uniroma2Wifi */,
+				65FA04AF19F1EDEA004F3529 /* Uniroma2WifiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FA049519F1EDEA004F3529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FA04A619F1EDEA004F3529 /* Main.storyboard in Resources */,
+				65FA051119F1F792004F3529 /* icon-error.png in Resources */,
+				652C31661A16ACB000E50226 /* UWTutorialController.xib in Resources */,
+				65FA051519F1F792004F3529 /* icon-success.png in Resources */,
+				65FA051319F1F792004F3529 /* icon-info.png in Resources */,
+				652C315B1A1693B300E50226 /* UWTutorialViewStep2.xib in Resources */,
+				65FA051419F1F792004F3529 /* icon-info@2x.png in Resources */,
+				652C31591A16937A00E50226 /* UWTutorialViewStep1.xib in Resources */,
+				652C31611A16AB8C00E50226 /* UWTutorialViewStep3.xib in Resources */,
+				65FA051619F1F792004F3529 /* icon-success@2x.png in Resources */,
+				65FA04AB19F1EDEA004F3529 /* LaunchScreen.xib in Resources */,
+				65FA04A819F1EDEA004F3529 /* Images.xcassets in Resources */,
+				65E68A9A1A1A71FC00B6BC21 /* uniroma2.der in Resources */,
+				65FA051219F1F792004F3529 /* icon-error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FA04AE19F1EDEA004F3529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FA049319F1EDEA004F3529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FA051719F1F792004F3529 /* TWMessageBarManager.m in Sources */,
+				65FA04FD19F1F6D0004F3529 /* KeychainItemWrapper.m in Sources */,
+				652C313D1A15F21600E50226 /* UWCredenzialiTableViewController.m in Sources */,
+				6581783B19F44021006DD572 /* UWMainController.m in Sources */,
+				652C31431A15F75200E50226 /* UWCredentialsTableViewCell.m in Sources */,
+				65FA04A019F1EDEA004F3529 /* AppDelegate.m in Sources */,
+				65FA049D19F1EDEA004F3529 /* main.m in Sources */,
+				65FA04EB19F1F11D004F3529 /* UWHomeViewController.m in Sources */,
+				652C314F1A1657A800E50226 /* UWAboutViewController.m in Sources */,
+				652C31651A16ACB000E50226 /* UWTutorialController.m in Sources */,
+				65EA4CD71A18F13500AE2F11 /* UWConditionsViewController.m in Sources */,
+				652C31691A16B14000E50226 /* UWTextField.m in Sources */,
+				652C31461A1608F000E50226 /* UWSupportViewController.m in Sources */,
+				652C313A1A15F20400E50226 /* UWSettingsTableViewController.m in Sources */,
+				65FA04FE19F1F6D0004F3529 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FA04AC19F1EDEA004F3529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FA04B719F1EDEA004F3529 /* Uniroma2WifiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FA04B219F1EDEA004F3529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FA049619F1EDEA004F3529 /* Uniroma2Wifi */;
+			targetProxy = 65FA04B119F1EDEA004F3529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FA04A419F1EDEA004F3529 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FA04A519F1EDEA004F3529 /* Base */,
+				652C31551A16746900E50226 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65FA04A919F1EDEA004F3529 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FA04AA19F1EDEA004F3529 /* Base */,
+				652C31561A16746900E50226 /* it */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FA04B819F1EDEA004F3529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FA04B919F1EDEA004F3529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FA04BB19F1EDEA004F3529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrea Cerra (TWULR76UXG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrea Cerra (TWULR76UXG)";
+				INFOPLIST_FILE = Uniroma2Wifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FA04BC19F1EDEA004F3529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrea Cerra (TWULR76UXG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrea Cerra (TWULR76UXG)";
+				INFOPLIST_FILE = Uniroma2Wifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65FA04BE19F1EDEA004F3529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Uniroma2WifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uniroma2Wifi.app/Uniroma2Wifi";
+			};
+			name = Debug;
+		};
+		65FA04BF19F1EDEA004F3529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Uniroma2WifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uniroma2Wifi.app/Uniroma2Wifi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FA049219F1EDEA004F3529 /* Build configuration list for PBXProject "Uniroma2Wifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FA04B819F1EDEA004F3529 /* Debug */,
+				65FA04B919F1EDEA004F3529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FA04BA19F1EDEA004F3529 /* Build configuration list for PBXNativeTarget "Uniroma2Wifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FA04BB19F1EDEA004F3529 /* Debug */,
+				65FA04BC19F1EDEA004F3529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FA04BD19F1EDEA004F3529 /* Build configuration list for PBXNativeTarget "Uniroma2WifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FA04BE19F1EDEA004F3529 /* Debug */,
+				65FA04BF19F1EDEA004F3529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FA048F19F1EDEA004F3529 /* Project object */;
+}

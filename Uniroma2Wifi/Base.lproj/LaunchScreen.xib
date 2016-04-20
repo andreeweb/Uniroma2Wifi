@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_app" translatesAutoresizingMaskIntoConstraints="NO" id="DH8-md-fGC">
+                    <rect key="frame" x="260" y="99" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="1sZ-XV-ppM"/>
+                        <constraint firstAttribute="height" constant="150" id="D3Z-zb-z4Y"/>
+                        <constraint firstAttribute="height" constant="80" id="HMj-lS-2UM"/>
+                        <constraint firstAttribute="width" constant="80" id="mBj-Uy-8PV"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1sZ-XV-ppM"/>
+                            <exclude reference="D3Z-zb-z4Y"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.62352941179999999" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="DH8-md-fGC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="123" id="68B-A6-sv4"/>
+                <constraint firstAttribute="centerX" secondItem="DH8-md-fGC" secondAttribute="centerX" id="6Gl-tL-Gm7"/>
+                <constraint firstItem="DH8-md-fGC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="99" id="GpG-qR-tbR"/>
+                <constraint firstAttribute="centerY" secondItem="DH8-md-fGC" secondAttribute="centerY" constant="165" id="HCe-RE-7E3"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="68B-A6-sv4"/>
+                    <exclude reference="HCe-RE-7E3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_app" width="100" height="100"/>
+    </resources>
+</document>
